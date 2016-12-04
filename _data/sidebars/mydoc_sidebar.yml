@@ -60,11 +60,11 @@ entries:
           url: /tag_troubleshooting.html
           output: web
 		  
-- title: Tag archives
-    output: web
-    folderitems:
+   - title: Tag archives
+     output: web
+     folderitems:
 
-    - title: Tag archives overview
+    - title: Tag archsives overview
       url: /mydoc_tag_archives_overview.html
       output: web
 
