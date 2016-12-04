@@ -24,7 +24,7 @@ entries:
     output: web
     folderitems:
 
-    subfolders:
+    
       - title: Tag archive pages
         output: web
         subfolderitems:
@@ -57,6 +57,8 @@ entries:
           url: /tag_troubleshooting.html
           output: web
 
+		  
+		  
   - title: Another heading
     output: web, pdf
 
