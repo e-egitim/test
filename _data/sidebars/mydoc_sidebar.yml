@@ -65,12 +65,12 @@ entries:
     output: web
     folderitems:
 
-    - title: Tag archives overview2
+    - title: aTag archives overview2
       url: /mydoc_tag_archives_overview.html
       output: web
 
       subfolders:
-      - title: Tag archive pages
+      - title: aTag archive pages
         output: web
         subfolderitems:
 
@@ -103,7 +103,7 @@ entries:
           output: web
 
       subfolders:
-      - title: Tag archive pages
+      - title: bzzTag archive pages
         output: web
         subfolderitems:
 
