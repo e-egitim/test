@@ -64,3 +64,21 @@ entries:
         - title: Troubleshooting pages
           url: /tag_troubleshooting.html
           output: web
+
+		  
+- title: Tag archives
+    output: web
+    folderitems:
+
+    - title: Tag archives overview
+      url: /mydoc_tag_archives_overview.html
+      output: web
+
+      subfolders:
+      - title: Tag archive pages
+        output: web
+        subfolderitems:
+
+        - title: Formatting pages
+          url: /tag_formatting.html
+          output: web		  
