@@ -32,11 +32,13 @@ entries:
 
 
 
-  - title: Tag archives
+  - title: 1. grup
     output: web
     folderitems:
 
-    
+    - title: Tag archives overview
+      url: /mydoc_tag_archives_overview.html
+      output: web
 
       subfolders:
       - title: Tag archive pages
