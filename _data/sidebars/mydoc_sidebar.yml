@@ -102,6 +102,10 @@ entries:
           url: /tag_troubleshooting.html
           output: web
 
+    - title: Tag archives overview
+      url: /mydoc_tag_archives_overview.html
+      output: web
+	  
       subfolders:
       - title: bzzTag archive pages
         output: web
