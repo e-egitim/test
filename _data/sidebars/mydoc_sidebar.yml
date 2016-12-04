@@ -23,7 +23,11 @@ entries:
     output: web
     folderitems:
 
-          subfolders:
+    - title: Tag archives overview
+      url: /mydoc_tag_archives_overview.html
+      output: web
+
+      subfolders:
       - title: Tag archive pages
         output: web
         subfolderitems:
