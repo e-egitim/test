@@ -4,7 +4,7 @@ entries:
   version: 6.0
   folders:
 
-  - title: Overview
+  - title: e
     output: web, pdf
     folderitems:
 
@@ -28,7 +28,7 @@ entries:
       url: /mydoc_support.html
       output: web, pdf
 
-  - title: Release Notes
+  - title: l
     output: web, pdf
     folderitems:
 
