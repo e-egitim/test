@@ -1,22 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @isaalp
- Watch 37
-  Star 340
- Fork 202 tomjohnson1492/documentation-theme-jekyll
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs
-Branch: gh-pages Find file Copy pathdocumentation-theme-jekyll/_data/sidebars/mydoc_sidebar.yml
-a1e944a  on 31 Jul
-@tomjohnson1492 tomjohnson1492 fixed feedback link in header with functional link in FF and Chrome. …
-1 contributor
-RawBlameHistory     
-304 lines (230 sloc)  6.3 KB
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-
 entries:
 - title: sidebar
   product: Jekyll Doc Theme
