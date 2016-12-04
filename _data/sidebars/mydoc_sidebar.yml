@@ -19,12 +19,31 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+
+
+
+  - title: Troubleshooting
+    output: web, pdf
+
+    folderitems:
+
+    - title: Troubleshooting
+      url: /mydoc_troubleshooting.html
+      output: web, pdf
 
   - title: Tag archives
     output: web
     folderitems:
 
-    
+    - title: Tag archives overview
+      url: /mydoc_tag_archives_overview.html
+      output: web
+
+      subfolders:
       - title: Tag archive pages
         output: web
         subfolderitems:
@@ -56,25 +75,3 @@ entries:
         - title: Troubleshooting pages
           url: /tag_troubleshooting.html
           output: web
-
-		  
-		  
-  - title: Another heading
-    output: web, pdf
-
-    folderitems:
-    - title: Sample 4
-      url: /p1_sample4.html
-      output: web, pdf
-
-    - title: Sample 5
-      url: /p1_sample5.html
-      output: web, pdf
-
-    - title: Sample 6
-      url: /p1_sample6.html
-      output: web, pdf
-
-    - title: Sample 7
-      url: /p1_sample7.html
-      output: web, pdf
