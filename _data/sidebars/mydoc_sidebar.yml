@@ -19,6 +19,7 @@ entries:
       output: pdf
       type: frontmatter
 
+<<<<<<< HEAD
   - title: Overview
     output: web, pdf
     folderitems:
@@ -56,6 +57,7 @@ entries:
     - title: iTerm profiles
       url: /mydoc_iterm_profiles.html
       output: web, pdf
+
 
     - title: Pushing builds to server
       url: /mydoc_push_build_to_server.html
