@@ -41,7 +41,7 @@ entries:
       output: web
 
       subfolders:
-      - title: Tag archive pages
+      - title: e sesi
         output: web
         subfolderitems:
 
