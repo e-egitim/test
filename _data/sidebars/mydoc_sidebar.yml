@@ -26,14 +26,6 @@ entries:
 
 
 
-  - title: Troubleshooting
-    output: web, pdf
-
-    folderitems:
-
-    - title: Troubleshooting
-      url: /mydoc_troubleshooting.html
-      output: web, pdf
 
   - title: Tag archives
     output: web
