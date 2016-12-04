@@ -41,7 +41,7 @@ entries:
       output: web
 
       subfolders:
-      - title: e sesi
+      - title: Tag archive pages
         output: web
         subfolderitems:
 
@@ -75,8 +75,19 @@ entries:
 		  
 		  
 		  
-	 subfolders:
-      - title: l sesi
+		  
+		  
+		  
+	- title: 2. grup
+    output: web
+    folderitems:
+
+    - title: Tag archives overview
+      url: /mydoc_tag_archives_overview.html
+      output: web
+
+      subfolders:
+      - title: Tag archive pages
         output: web
         subfolderitems:
 
@@ -107,8 +118,5 @@ entries:
         - title: Troubleshooting pages
           url: /tag_troubleshooting.html
           output: web	  
-		  
-		  
-		  
 		  
 		  
