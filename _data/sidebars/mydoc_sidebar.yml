@@ -68,8 +68,12 @@ entries:
           url: /tag_troubleshooting.html
           output: web
 		  
-		  
-	   subfolders:
+	
+ - title: genel2
+      url: /mydoc_tag_archives_overview.html
+      output: web
+
+      subfolders:
       - title: l sesi
         output: web
         subfolderitems:
@@ -100,4 +104,5 @@ entries:
 
         - title: Troubleshooting pages
           url: /tag_troubleshooting.html
-          output: web
+          output: web	
+	   
