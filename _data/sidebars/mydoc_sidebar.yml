@@ -39,8 +39,8 @@ entries:
     - title: 5.0 Release notes
       url: /mydoc_release_notes_50.html
       output: web, pdf
-	    
-   - title: a
+
+  - title: Release Notes
     output: web, pdf
     folderitems:
 
@@ -49,5 +49,5 @@ entries:
       output: web, pdf
 
     - title: 5.0 Release notes
-      url: /myoc_release_notes_50.html
+      url: /mydoc_release_notes_50.html
       output: web, pdf	  
