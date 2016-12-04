@@ -19,7 +19,7 @@ entries:
       output: pdf
       type: frontmatter
 
- 
+ rrrrrr
 
 
 
@@ -64,6 +64,3 @@ entries:
         - title: Troubleshooting pages
           url: /tag_troubleshooting.html
           output: web
-
-		  
-		  
