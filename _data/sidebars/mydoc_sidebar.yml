@@ -1,3 +1,6 @@
+ - title: Special layouts
+    output: web, pdf
+	
     folderitems:
   - title: Tag archives
     output: web
