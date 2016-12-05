@@ -25,7 +25,7 @@ entries:
 
 
 
-  - title: Tag archives
+  - title: 1. grup
     output: web
     folderitems:
 
@@ -34,7 +34,7 @@ entries:
       output: web
 
       subfolders:
-      - title: Tag archive pages
+      - title: e sesi
         output: web
         subfolderitems:
 
@@ -64,4 +64,40 @@ entries:
 
         - title: Troubleshooting pages
           url: /tag_troubleshooting.html
+          output: web	
+    - title: Tag archives overview
+      url: /mydoc_tag_archives_overview.html
+      output: web
+
+      subfolders:
+      - title: l sesi
+        output: web
+        subfolderitems:
+
+        - title: Formatting pages
+          url: /tag_formatting.html
           output: web
+
+        - title: Navigation pages
+          url: /tag_navigation.html
+          output: web
+
+        - title: Content types pages
+          url: /tag_content_types.html
+          output: web
+
+        - title: Publishing pages
+          url: /tag_publishing.html
+          output: web
+
+        - title: Special layout pages
+          url: /tag_special_layouts.html
+          output: web
+
+        - title: Collaboration pages
+          url: /tag_collaboration.html
+          output: web
+
+        - title: Troubleshooting pages
+          url: /tag_troubleshooting.html
+          output: web	
