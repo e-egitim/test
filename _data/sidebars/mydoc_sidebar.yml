@@ -60,11 +60,7 @@ entries:
 
         - title: Collaboration pages
           url: /tag_collaboration.html
-          output: web
-
-        - title: Troubleshooting pages
-          url: /tag_troubleshooting.html
-          output: web			  
+          output: web	  
       subfolders:
       - title: l sesi
         output: web
