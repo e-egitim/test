@@ -1,95 +1,41 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-
 entries:
 - title: sidebar
   product: Jekyll Doc Theme
   version: 6.0
   folders:
 
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage
-      output: pdf
-      type: frontmatter
-
-#    - title: Git collaboration
-#      url: /mydoc_git_collaboration
-#      output: web, pdf
-
-
-
-  - title: 1. grup
-    output: web
+  - title: Overview
+    output: web, pdf
     folderitems:
 
-    - title: Tag archives overview
-      url: /mydoc_tag_archives_overview.html
-      output: web
+    - title: Get started
+      url: /index.html
+      output: web, pdf
 
-      subfolders:
-      - title: e sesi
-        output: web
-        subfolderitems:
+    - title: Introduction
+      url: /mydoc_introduction.html
+      output: web, pdf
 
-        - title: Formatting pages
-          url: /tag_formatting.html
-          output: web
+    - title: Supported features
+      url: /mydoc_supported_features.html
+      output: web, pdf
 
-        - title: Navigation pages
-          url: /tag_navigation.html
-          output: web
+    - title: About the theme author
+      url: /mydoc_about.html
+      output: web, pdf
 
-        - title: Content types pages
-          url: /tag_content_types.html
-          output: web
+    - title: Support
+      url: /mydoc_support.html
+      output: web, pdf
 
-        - title: Publishing pages
-          url: /tag_publishing.html
-          output: web
+  - title: Release Notes
+    output: web, pdf
+    folderitems:
 
-        - title: Special layout pages
-          url: /tag_special_layouts.html
-          output: web
+    - title: 6.0 Release notes
+      url: /mydoc_release_notes_60.html
+      output: web, pdf
 
-        - title: Collaboration pages
-          url: /tag_collaboration.html
-          output: web	  
-      subfolders:
-      - title: l sesi
-        output: web
-        subfolderitems:
-
-        - title: Formatting pages
-          url: /tag_formatting.html
-          output: web
-
-        - title: Navigation pages
-          url: /tag_navigation.html
-          output: web
-
-        - title: Content types pages
-          url: /tag_content_types.html
-          output: web
-
-        - title: Publishing pages
-          url: /tag_publishing.html
-          output: web
-
-        - title: Special layout pages
-          url: /tag_special_layouts.html
-          output: web
-
-        - title: Collaboration pages
-          url: /tag_collaboration.html
-          output: web
-
-        - title: Troubleshooting pages
-          url: /tag_troubleshooting.html
-          output: web	
+    - title: 5.0 Release notes
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
