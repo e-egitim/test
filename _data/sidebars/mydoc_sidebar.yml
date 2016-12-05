@@ -18,8 +18,6 @@ entries:
       url: /tocpage
       output: pdf
       type: frontmatter
-
-
     output: web, pdf
 
     folderitems:
@@ -30,8 +28,6 @@ entries:
 #    - title: Git collaboration
 #      url: /mydoc_git_collaboration
 #      output: web, pdf
-
- 
     output: web, pdf
 
     folderitems:
