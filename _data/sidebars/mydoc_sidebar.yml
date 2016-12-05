@@ -64,7 +64,7 @@ entries:
 
         - title: Troubleshooting pages
           url: /tag_troubleshooting.html
-          output: web	
+          output: web			  
       subfolders:
       - title: l sesi
         output: web
