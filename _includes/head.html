@@ -6,6 +6,27 @@
 <title>{{ page.title }} | {{ site.site_title }}</title>
 <link rel="stylesheet" href="{{ "css/syntax.css" }}">
 
+
+
+
+
+
+
+
+
+
+
+	<link rel="stylesheet" type="text/css" href="http://isaalp.com/menu/demo/demo.css" media="screen" />
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="http://isaalp.com/menu/demo/highlight.pack.js"></script>
+		<script src="http://isaalp.com/menu/demo/demo.js"></script>
+
+		<!-- Add JQuery cookie plugin (optional) -->
+		<script src="../src/jquery.cookie.js"></script>
+		<!-- Add navgoco main js and css files  -->
+		<script type="text/javascript" src="http://isaalp.com/menu/src/jquery.navgoco.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://isaalp.com/menu/src/jquery.navgoco.css" media="screen" />
+
 <script type="text/javascript" id="demo1-javascript">
 $(document).ready(function() {
 	// Initialize navgoco with default options
@@ -24,7 +45,14 @@ $(document).ready(function() {
 			easing: 'swing'
 		},
 		// Add Active class to clicked menu item
-		onClickAfter: active_menu_cb,
+		onClickAfter: function(e, submenu) {
+			e.preventDefault();
+			$('#demo1').find('li').removeClass('active');
+			var li =  $(this).parent();
+			var lis = li.parents('li');
+			li.addClass('active');
+			lis.addClass('active');
+		},
 	});
 
 	$("#collapseAll").click(function(e) {
@@ -48,16 +76,7 @@ $(document).ready(function() {
 
 
 	<!-- Demo page js and css files -->
-		<link rel="stylesheet" type="text/css" href="demo.css" media="screen" />
-		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-		<script src="http://isaalp.com/menu/highlight.pack.js"></script>
-		<script src="http://isaalp.com/menu/demo.js"></script>
-
-		<!-- Add JQuery cookie plugin (optional) -->
-		<script src="http://isaalp.com/src/jquery.cookie.js"></script>
-		<!-- Add navgoco main js and css files  -->
-		<script type="text/javascript" src="http://isaalp.com/src/jquery.navgoco.js"></script>
-		<link rel="stylesheet" type="text/css" href="http://isaalp.com/src/jquery.navgoco.css" media="screen" />
+	
 		
 		
 		
