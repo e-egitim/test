@@ -6,6 +6,44 @@
 <title>{{ page.title }} | {{ site.site_title }}</title>
 <link rel="stylesheet" href="{{ "css/syntax.css" }}">
 
+<script type="text/javascript" id="demo1-javascript">
+$(document).ready(function() {
+	// Initialize navgoco with default options
+	$("#demo1").navgoco({
+		caretHtml: '',
+		accordion: false,
+		openClass: 'open',
+		save: true,
+		cookie: {
+			name: 'navgoco',
+			expires: false,
+			path: '/'
+		},
+		slide: {
+			duration: 400,
+			easing: 'swing'
+		},
+		// Add Active class to clicked menu item
+		onClickAfter: active_menu_cb,
+	});
+
+	$("#collapseAll").click(function(e) {
+		e.preventDefault();
+		$("#demo1").navgoco('toggle', false);
+	});
+
+	$("#expandAll").click(function(e) {
+		e.preventDefault();
+		$("#demo1").navgoco('toggle', true);
+	});
+});
+</script>
+<script type="text/javascript" id="demo2-javascript">
+$(document).ready(function() {
+	$("#demo2").navgoco({accordion: true});
+});
+</script>
+
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
