@@ -12,66 +12,11 @@
 
 
 <link rel="stylesheet" href="{{ "menu/src/jquery.navgoco.css" }}">
-<link rel="stylesheet" href="{{ "menu/demo/demo.css" }}">
+<link rel="stylesheet" href="{{ "menu1/lib/jquery.ntm.js" }}">
 
 
 
-		<script src="https://codeilko.github.io/silmeyin/menu/demo/highlight.pack.js"></script>
-
-		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-		<script src="https://codeilko.github.io/silmeyin/menu/demo/demo.js"></script>
-
-		<!-- Add JQuery cookie plugin (optional) -->
-		<script src="https://codeilko.github.io/silmeyin/menu/src/jquery.cookie.js"></script>
-		<!-- Add navgoco main js and css files  -->
-		<script type="text/javascript" src="https://codeilko.github.io/silmeyin/menu/src/jquery.navgoco.js"></script>
-		<link rel="stylesheet" type="text/css" href="https://codeilko.github.io/silmeyin/menu/src/jquery.navgoco.css" media="screen" />
-
-<script type="text/javascript" id="demo1-javascript">
-$(document).ready(function() {
-	// Initialize navgoco with default options
-	$("#demo1").navgoco({
-		caretHtml: '',
-		accordion: false,
-		openClass: 'open',
-		save: true,
-		cookie: {
-			name: 'navgoco',
-			expires: false,
-			path: '/'
-		},
-		slide: {
-			duration: 400,
-			easing: 'swing'
-		},
-		// Add Active class to clicked menu item
-		onClickAfter: function(e, submenu) {
-			e.preventDefault();
-			$('#demo1').find('li').removeClass('active');
-			var li =  $(this).parent();
-			var lis = li.parents('li');
-			li.addClass('active');
-			lis.addClass('active');
-		},
-	});
-
-	$("#collapseAll").click(function(e) {
-		e.preventDefault();
-		$("#demo1").navgoco('toggle', false);
-	});
-
-	$("#expandAll").click(function(e) {
-		e.preventDefault();
-		$("#demo1").navgoco('toggle', true);
-	});
-});
-</script>
-<script type="text/javascript" id="demo2-javascript">
-$(document).ready(function() {
-	$("#demo2").navgoco({accordion: true});
-});
-</script>
-
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 
 
