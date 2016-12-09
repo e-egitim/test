@@ -9,10 +9,10 @@ font-size: 14px;
   margin: 0;
   padding: 0;
   list-style: none;
-  border-bottom: 1px solid #1ABC9C
+  border-bottom: 1px solid #248ec2;
 }
 
-.mainNav ul li { border-top: 1px solid #1ABC9C; }
+.mainNav ul li { border-top: 1px solid #248ec2; }
 
 .mainNav ul li a {
   color: #FFFFFF;
@@ -24,7 +24,7 @@ font-size: 14px;
 }
 
 .mainNav ul li a:hover {
-  background: #E95546;
+  background: #248ec2;
   text-decoration: none;
 }
 
