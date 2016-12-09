@@ -33,7 +33,7 @@ font-size: 14px;
 .mainNav ul ul { border-bottom: none }
 
 .mainNav ul ul li {
-  border-top: 1px solid #46CFB0;
+  border-top: 1px solid #248ec2;
   background: #61A0D8;
 }
 
@@ -49,7 +49,7 @@ font-size: 14px;
 
 /* Third Level */
 
-.mainNav ul ul ul { border-top: 1px solid #46CFB0; }
+.mainNav ul ul ul { border-top: 1px solid #248ec2; }
 
 .mainNav ul ul ul li { border: none; }
 
