@@ -13,6 +13,25 @@
 
 
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="navAccordion.min.js"></script>
+	<script>
+		jQuery(document).ready(function(){
+		
+			//Accordion Nav
+			jQuery('.mainNav').navAccordion({
+				expandButtonText: '<i class="fa fa-plus"></i>',  //Text inside of buttons can be HTML
+				collapseButtonText: '<i class="fa fa-minus"></i>'
+			}, 
+			function(){
+				console.log('Callback')
+			});
+			
+		});
+	</script>
+
+
 	<style>
 	/* Example Styles
 	-----------------------------------------------*/
