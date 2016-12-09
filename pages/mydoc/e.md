@@ -1,5 +1,5 @@
 ---
-title: About the theme author
+title: e
 keywords: documentation theme, jekyll, technical writers, help authoring tools, hat replacements
 last_updated: July 3, 2016
 tags: [getting_started]
@@ -8,6 +8,10 @@ sidebar: mydoc_sidebar
 permalink: mydoc_about.html
 folder: mydoc
 ---
+
+
+e sesiii       
+
 
 My name is Tom Johnson, and I'm a technical writer, blogger, and podcaster based in San Jose, California. My blog is here: [http://idratherbewriting.com](http://idratherbewriting.com). I write several posts there a week. See [my blog's about page](http://idratherbewriting.com/aboutme/) for more details about me.
 
