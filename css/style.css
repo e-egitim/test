@@ -1,6 +1,6 @@
 .mainNav {
   background: #347DBE;
-font-size: 14px;
+font-size: 13px;
 }
 
 /* First Level */
@@ -64,5 +64,5 @@ font-size: 14px;
 ul li.has-subnav .accordion-btn {
   color: #fff;
   background: rgba(255,255,255, 0.15);
-  font-size: 13px;
+  font-size: 12px;
 }
