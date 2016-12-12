@@ -13,10 +13,10 @@ folder: mydoc
 
 
 
-{% video http://s3.imathis.com/video/zero-to-fancy-buttons.mp4 640 320 http://s3.imathis.com/video/zero-to-fancy-buttons.png %}
-...xx
 
- Syntax {% video url/to/video [width height] [url/to/poster] %}
+<p><video id="scenario-1" class="video-js vjs-default-skin vjs-big-play-centered" controls
+ preload="auto" width="640" height="480" data-setup='{}'>
+  <source src="http://s3.imathis.com/video/zero-to-fancy-buttons.mp4" type='video/mp4'>
+</video></p>
 
- Example:
- {% video http://s3.imathis.com/video/zero-to-fancy-buttons.mp4 720 480 http://s3.imathis.com/video/zero-to-fancy-buttons.png %
+
