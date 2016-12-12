@@ -11,3 +11,5 @@ folder: mydoc
 ![enter image description here](http://ilkokuma.egitimhane.com/wp-content/gif/esesi.gif)
 
 
+{% video /1.mp4 720 480 http://site.com/poster-frame.jpg %}
+
