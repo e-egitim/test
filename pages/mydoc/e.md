@@ -16,7 +16,7 @@ e sesiii
 
 <p><video id="scenario-1" class="video-js vjs-default-skin vjs-big-play-centered" controls
  preload="auto" width="496" height="390" data-setup='{}'>
-  <source src="https://e-egitim.github.io/test/1.mp4" type='video/mp4'>
+  <source src="http://video.egitimhane.com/flvideo/100.flv" type='video/mp4'>
 </video></p>
 
 
