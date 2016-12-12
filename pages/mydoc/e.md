@@ -16,3 +16,7 @@ folder: mydoc
 {% video http://s3.imathis.com/video/zero-to-fancy-buttons.mp4 640 320 http://s3.imathis.com/video/zero-to-fancy-buttons.png %}
 ...xx
 
+ Syntax {% video url/to/video [width height] [url/to/poster] %}
+
+ Example:
+ {% video http://s3.imathis.com/video/zero-to-fancy-buttons.mp4 720 480 http://s3.imathis.com/video/zero-to-fancy-buttons.png %
