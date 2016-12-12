@@ -14,17 +14,15 @@ e sesiii
 
 
 
-<video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered"
-  controls preload="auto" width="640" height="264"
-  poster="http://video-js.zencoder.com/oceans-clip.png"
-  data-setup='{"example_option":true}'>
-  ...
-</video>
+<p><video id="scenario-1" class="video-js vjs-default-skin vjs-big-play-centered" controls
+ preload="auto" width="496" height="390" data-setup='{}'>
+  <source src="https://e-egitim.github.io/test/1.mp4" type='video/mp4'>
+</video></p>
 
 
 xxx1
 
-https://e-egitim.github.io/test/1.mp4
+
 
 
 xxxxxx2
