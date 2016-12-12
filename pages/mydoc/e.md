@@ -12,5 +12,7 @@ folder: mydoc
 
 
 
+
+{% video http://s3.imathis.com/video/zero-to-fancy-buttons.mp4 640 320 http://s3.imathis.com/video/zero-to-fancy-buttons.png %}
 ...xx
 
