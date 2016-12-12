@@ -21,7 +21,7 @@ xxx
 
 
 <p><video id="scenario-1" class="video-js vjs-default-skin vjs-big-play-centered" controls
-  data-setup='{}'>
+  preload="auto" data-setup='{}'>
   <source src="https://e-egitim.github.io/test/1.mp4" type='video/mp4'>
 </video></p>
 
