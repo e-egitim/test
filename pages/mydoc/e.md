@@ -10,4 +10,5 @@ folder: mydoc
 
 ![enter image description here](http://ilkokuma.egitimhane.com/wp-content/gif/esesi.gif)
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+{% video {{ site.cdn }}/videos/clouds.mp4 %}
+{% video featured wide /images/clouds.jpg /videos/clouds.mp4 /videos/clouds.webm /videos/clouds.ogv 1080px 608px preload:auto %}
